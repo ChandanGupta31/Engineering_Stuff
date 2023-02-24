@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:scrollbars="none"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Card View For 1st Year-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/year1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/year1"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sky"
+                android:text="@string/_1st_year"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card View For 2nd Year-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/year2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="10dp">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/year2"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sky"
+                android:text="@string/_2nd_year"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card View For 3rd year-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/year3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="10dp">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/year3"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sky"
+                android:text="@string/_3rd_year"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card View For 4th Year-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/year4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="10dp">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/year4"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sky"
+                android:text="@string/_4th_year"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card View For About US-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/sky"
+                android:text="@string/about_us"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
