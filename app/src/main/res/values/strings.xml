@@ -6,7 +6,7 @@
     <string name="_3rd_year">3rd Year</string>
     <string name="_4th_year">4th Year</string>
     <string name="about_us">About US</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedbackAndContribute">Feedback / Contribute</string>
 
     <string name="cse">CSE</string>
     <string name="it">IT</string>
@@ -205,8 +205,9 @@
 
 
 
-    <string name="about">Our app is specifically designed to help engineering students overcome the challenges of their studies.\n
-        With an easy-to-use interface, you can quickly and efficiently organize your notes by subject, course or semester.\n
-        Access your notes from any device with internet and Stay updated with the latest information and resources.\n\nThank You!</string>
+    <string name="about">Our app is specifically designed to help engineering students overcome the challenges of their studies.\n\n
+        With an easy-to-use interface, you can quickly and efficiently get your notes by subject, course or semester.\n\n
+        Access notes from any device with internet and Stay updated with the latest information and resources.\n\n
+        If you want to contribute your notes then please send us.\n\nThank You!</string>
 
 </resources>
