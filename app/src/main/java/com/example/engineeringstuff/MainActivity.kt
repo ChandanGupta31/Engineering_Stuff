@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
 
         // About US
         binding.about.setOnClickListener {
-            supportActionBar?.title = getString(R.string.about_us)
             val intent = Intent(this, About::class.java)
             startActivity(intent)
         }

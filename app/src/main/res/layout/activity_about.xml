@@ -24,6 +24,7 @@
             android:id="@+id/response"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/varino_normal"
             android:text="@string/feedbackAndContribute"
             android:textSize="30sp"
             android:textAlignment="center"

@@ -9,10 +9,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.engineeringstuff.PDFviewer
 import com.example.engineeringstuff.R
-import com.example.engineeringstuff.fragment.cse
-import com.example.engineeringstuff.model.Subjects
+import com.example.engineeringstuff.model.SubjectFireBase
 
-class cseAdapter( private val context: Context, private val subjects: List<Subjects>) : RecyclerView.Adapter<cseAdapter.cseViewHolder>() {
+class cseAdapter( private val context: Context, private val subjects: ArrayList<SubjectFireBase>) : RecyclerView.Adapter<cseAdapter.cseViewHolder>() {
 
     class cseViewHolder( view : View) : RecyclerView.ViewHolder(view){
         var textView : TextView = itemView.findViewById(R.id.subjectItem)
@@ -29,11 +28,11 @@ class cseAdapter( private val context: Context, private val subjects: List<Subje
 
     override fun onBindViewHolder(holder: cseViewHolder, position: Int) {
         val item = subjects[position]
-        holder.textView.text = context.resources.getString(item.subjectName)
+        holder.textView.text = item.name
 
         holder.textView.setOnClickListener {
             val intent = Intent(holder.itemView.context,PDFviewer::class.java)
-            intent.putExtra("url",context.resources.getString(item.url))
+            intent.putExtra("url",item.link)
             holder.itemView.context.startActivity(intent)
         }
     }

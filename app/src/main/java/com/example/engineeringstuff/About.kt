@@ -10,6 +10,7 @@ class About : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
+        supportActionBar?.title = getString(R.string.about_us)
 
         val btn : Button = findViewById(R.id.response)
         btn.setOnClickListener {

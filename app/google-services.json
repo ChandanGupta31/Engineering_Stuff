@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304357024191",
+    "project_id": "engineering-stuff-82f1c",
+    "storage_bucket": "engineering-stuff-82f1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304357024191:android:0f5069d893420b1d49010a",
+        "android_client_info": {
+          "package_name": "com.example.engineeringstuff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304357024191-0rsgsisquqmq5t022qip9fbodn6914nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmtTBGnW0kaZt5iDpmvsdfLyzhhtnkljE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304357024191-0rsgsisquqmq5t022qip9fbodn6914nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

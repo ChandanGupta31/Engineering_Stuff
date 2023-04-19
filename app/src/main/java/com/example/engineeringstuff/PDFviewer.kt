@@ -12,7 +12,6 @@ class PDFviewer : AppCompatActivity() {
         supportActionBar?.hide()
 
 
-
         val url = intent.getStringExtra("url")
         val pdf : WebView = findViewById(R.id.pdf)
         pdf.webViewClient = WebViewClient()

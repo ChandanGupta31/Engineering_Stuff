@@ -27,13 +27,16 @@
             <androidx.constraintlayout.utils.widget.ImageFilterView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/year1"
+                android:backgroundTint="#B3000000"
+                android:background="@drawable/year1"
+                android:backgroundTintMode="src_over"
                 android:scaleType="centerCrop"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/sky"
+                android:fontFamily="@font/varino_normal"
                 android:text="@string/_1st_year"
                 android:textSize="45sp"
                 android:textStyle="bold"
@@ -56,13 +59,16 @@
             <androidx.constraintlayout.utils.widget.ImageFilterView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/year2"
+                android:backgroundTint="#B3000000"
+                android:background="@drawable/year2"
+                android:backgroundTintMode="src_over"
                 android:scaleType="centerCrop"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/sky"
+                android:fontFamily="@font/varino_normal"
                 android:text="@string/_2nd_year"
                 android:textSize="45sp"
                 android:textStyle="bold"
@@ -85,13 +91,16 @@
             <androidx.constraintlayout.utils.widget.ImageFilterView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/year3"
+                android:backgroundTint="#B3000000"
+                android:background="@drawable/year3"
+                android:backgroundTintMode="src_over"
                 android:scaleType="centerCrop"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/sky"
+                android:fontFamily="@font/varino_normal"
                 android:text="@string/_3rd_year"
                 android:textSize="45sp"
                 android:textStyle="bold"
@@ -114,13 +123,16 @@
             <androidx.constraintlayout.utils.widget.ImageFilterView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/year4"
+                android:backgroundTint="#B3000000"
+                android:background="@drawable/year4"
+                android:backgroundTintMode="src_over"
                 android:scaleType="centerCrop"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/sky"
+                android:fontFamily="@font/varino_normal"
                 android:text="@string/_4th_year"
                 android:textSize="45sp"
                 android:textStyle="bold"
@@ -145,6 +157,8 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:textColor="@color/sky"
+                android:backgroundTint="#B3000000"
+                android:fontFamily="@font/varino_normal"
                 android:text="@string/about_us"
                 android:textAlignment="center"
                 android:textSize="30sp"
